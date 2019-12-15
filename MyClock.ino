@@ -1,8 +1,7 @@
-#include <Arduino.h>
 #include <OneWire.h>
-#include <IRLremote.h>
-#include <ci2c.h>
-#include <FAB_LED.h>
+#include <IRLremote.h> // https://github.com/NicoHood/IRLremote
+#include <ci2c.h> // https://github.com/SMFSW/cI2C
+#include <FAB_LED.h> // https://github.com/sonyhome/FAB_LED
 
 CNec IRLremote;
 I2C_SLAVE DS3231;
